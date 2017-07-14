@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+$(function(){
   var arr = [
     "Today it really rained cats and dogs..",
     "Your attic leads to another world. Describe the world.",
@@ -12,8 +12,6 @@ $(document).ready(function(){
  });
 });
 
-$(document).ready(function(){
-    $('img').click(function(){
-      $('img').animate({top: '-=100'}, 500);
-    });
-});
+$(function(){
+  $('img').draggable();
+})

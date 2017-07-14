@@ -1,0 +1,19 @@
+{
+  "name": "choose_to_create",
+  "version": "1.0.0",
+  "description": "create vs consume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristineshipman/choose_to_create.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristineshipman/choose_to_create/issues"
+  },
+  "homepage": "https://github.com/cristineshipman/choose_to_create#readme"
+}
