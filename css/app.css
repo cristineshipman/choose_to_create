@@ -5,6 +5,12 @@ body {
   color: #696969;
 }
 
+
+.page2 {
+  background: darksalmon;
+  text-align: center;
+}
+
 .leviosa {
   height: 200px;
   width: 200px;
