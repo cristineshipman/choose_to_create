@@ -1,6 +1,3 @@
-$(document).foundation()
-
-
 
 $(document).ready(function(){
   var arr = [
@@ -13,4 +10,10 @@ $(document).ready(function(){
     $('#quote').html(arr[index]);
     index = (index + 1) % arr.length ;
  });
+});
+
+$(document).ready(function(){
+    $('img').click(function(){
+      $('img').animate({top: '-=100'}, 500);
+    });
 });

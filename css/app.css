@@ -1,10 +1,24 @@
 body {
-  background: #85144b;
-  color: white;
+  background: #FFFACD;
+  color: #696969;
 }
 
 .row {
-  align-items: center;
+  text-align: center;
+}
+
+h1{
+  padding: 5%;
+}
+
+h2{
+  padding: 5%;
+}
+
+.leviosa {
+  position: relative;
+  width: 200px;
+  height: 200px;
 }
 
 
@@ -62,20 +76,4 @@ body {
 .menu-hover-lines a:hover::after,
 .menu-hover-lines .active a::after {
   width: 100%;
-}
-
-h1 {
-  text-align: center;
-  margin: 10%;
-}
-
-h2 {
-  text-align: center;
-  margin: 30px;
-}
-
-
-.lev {
-  left: 500px;
-  background: url(/img/leviosa.jpg) no-repeat 0 0;
 }
