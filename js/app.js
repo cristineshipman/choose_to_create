@@ -17,7 +17,10 @@ $(function(){
 
 // wingardem leviosa
 $(function(){
-  $('img').draggable();
+  $('.leviosa').click(function(){
+    $('.pen').attr('src', 'css/img/pen2.png');
+    return false;
+  })
 });
 
 
