@@ -1,4 +1,6 @@
 
+
+// created list of writing prompts
 $(function(){
   var arr = [
     "Today it really rained cats and dogs..",
@@ -12,13 +14,12 @@ $(function(){
  });
 });
 
+
+// wingardem leviosa
 $(function(){
   $('img').draggable();
 });
 
-$(document).ready(function() {
-    $('#button').click(function() {
-        var toAdd = $('input[name=added]').val();
-        $(".list").append('<div class="item">' + toAdd + '</div>');
-    });
-});
+
+// students created writing prompts
+localStorage('');

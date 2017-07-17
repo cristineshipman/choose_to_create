@@ -6,8 +6,15 @@ body {
 }
 
 
-.page2 {
+#page2 {
   background: darksalmon;
+  text-align: center;
+  padding: 2%;
+
+}
+
+#page3 {
+  background: #C8F2C2;
   text-align: center;
 }
 
@@ -33,7 +40,7 @@ button {
    align-self:center;
    background:transparent;
    padding:1rem 1rem;
-   margin:0 1rem;
+   margin:1rem 1rem;
    transition:all .5s ease;
    color:#41403E;
    font-size:2rem;
@@ -41,6 +48,7 @@ button {
    outline:none;
    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
 }
 
 button:hover {
