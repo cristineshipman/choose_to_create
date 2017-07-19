@@ -28,11 +28,36 @@ $(function(){
 // wingardem leviosa
 $(function(){
   $('.leviosa').click(function(){
-    $('.pen').attr('src', 'css/img/pen2.png');
-    return false;
+    $('.pen').animate({top:'-2000px'}, 1000);
   })
 });
 
 
 // students created writing prompts
-localStorage('');
+// $('#button1').click(function(){
+//   var prompt = $('#prompt').val();
+//   //if empty
+//   if($('#prompt').val() == ''){
+//     console.log("nope");
+//     $('#alert').html("<strong> Ooops! </strong> You didn't type out a prompt.");
+//     $('#alert').fadeIn().delay(3000).fadeOut();
+//     return false;
+//   }
+//   $('#add').replaceWith('<h2>' + prompt + "</h2>");
+//   //delete whatever is in the input
+//   $('#form')[0].reset();
+//   var addedPrompt = $('#add').html();
+//   localStorage.setItem("prompt", addedPrompt);
+//   return false;
+// });
+//
+// function saveEdits() {
+//   //to get the editable element
+//   var editElem = document.getElementById('edit');
+//   //to get the edited element
+//   var userVersion = editElem.innerHTML;
+//   //save the content to local storage
+//   localStorage.userEdits = userVersion;
+//   //write a confimration to the user
+//   document.getElementById('update').innerHTML='Edits saved!';
+// }

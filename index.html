@@ -8,52 +8,86 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link href="js/jquery-ui/jquery-ui.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/app.css">
+
   </head>
   <body>
     <!-- NAVAGATION  -->
-    <header class="sticky-shrinknav-header">
-      <h1 class="sticky-shrinknav-header-title">Choose to Create</h1>
-      <ul class="menu align-center sticky-shrinknav-menu">
-        <li><a href="#page1">About</a></li>
-        <li><a href="#page2">Write</a></li>
-        <li><a href="#page3">Create</a></li>
-      </ul>
-  </header>
+
+
+
 
 <!-- PAGE 1 -->
     <div id="page1" class="row">
-      <div class="large-12 columns">
-        <h1>Choose to Create</h1>
-        <h2 id="quote">Click "Create for me" to recieve a new prompt.</h2>
-        <button id="next">Create for me</button>
-        <button onclick="window.location='#page2'" id="create">Let me Create</button>
+      <div class="large-12 columns center">
+        <img id="logo" src="css/img/c2c.gif"  />
+        <h2 id="quote">Click "create" to recieve a new prompt!</h2>
+        <button id="next">Create</button>
+        <button onclick="window.location='#page2'">Story of the Day</button>
       </div>
+        <img src="css/img/pen.png" class="pen" />
+        <img src="css/img/wl.gif" class="leviosa" />
+
     </div>
 
-    <img src="css/img/pen.png" class="pen" />
-    <img src="css/img/WL.png" class="leviosa" />
 
-<!-- PAGE 2 -->
-    <div id="page2">
-      <h1>Create your own writing prompt!</h1>
-      <h2 id="add">Your input will be shared with other creatives.</h2>
-      <form>
-        <div class="row">
-          <div class="large-12 columns">
-              <input id="created" type="text" name="added" placeholder="the magic happens here.." />
+
+
+
+
+    <!-- PAGE 2 -->
+        <div id="page2">
+          <h1><strong>Story of the Day!</strong></h1>
+          <h2>This a story taken from the top of the Reddit Writing Prompt</h2>
+          <h3><strong>Prompt:</strong> Children are only born every 100 years</h3>
+          <p class="top-story">
+            John glanced over at Rachel’s peaceful sleeping figure. His heart still skipped
+             a few beats as his eyes covered every inch of her shadowy silhouette, pausing only
+             when he reached her face. Clear porcelain skin, illuminated by the light coming
+             from a nearby window gave her an almost angelic appearance. She looked so peaceful...
+          </p>
+
+          <!-- <h2 id="edit" contenteditable="true">Your input will be shared with other creatives.</h2>
+          <div id="alert"></div>
+          <form id="form">
+            <div class="row">
+              <div class="large-12 columns">
+                  <input id="prompt" type="text" name="added" placeholder="the magic happens here.." />
+              </div>
+            </div>
+          </form>
+          <div id="update">
+            Edit the text and click to save for the next user
           </div>
-        </div>
-      </form>
-      <button id="button">Add your prompt</button>
-      <button id="button">Go through prompts</button>
-      <br />
-      <div class="list"></div>
-    </div>
+          <button id="button1" onclick="saveEdits()">Save Story</button>
+        </div> -->
 
 <!-- PAGE 3 -->
     <div id="page3">
       <h1> What is Choose to Create About? </h1>
       <h2>"It is our choices that show what we truly are far more than our abilities."</h2>
+      <p>
+        Choose to create was inspired by all the writing prompt journals floating around in all of
+        the book stores and gift shops of the world. I always picked those books up thinking
+        they were a great idea. I then put them down thinking I could find the same thing on
+        the internet for free.
+            </p>
+        <p>
+          Choose to create is a website with free unlimited access to all the writing prompts your
+          heart desires.
+        </p>
+        <p>
+          The idea behind the brand name "choose to create" is to inspire people to create rather
+          than consume. We consume everyday, what is 20 minutes of creating going to hurt?
+        </p>
+        <p>
+          Write out on your computer or get old school (which is my favorite) and grab that journal
+          you bought years ago with hopes of a new writing habbit, and get to writing :).
+        </p>
+        <p>
+          Enjoy Creating!
+        </p>
+
+
     </div>
 
 
