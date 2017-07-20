@@ -16,13 +16,15 @@ h2 {
   margin: 2%;
 }
 #page2 {
-  background: darksalmon;
+  background: #f2a68c;
   text-align: center;
+  padding: 2%;
 }
 
-#page2 h1, #page3 h1{
-  text-transform: uppercase;
-  text-decoration: underline;
+
+
+.about {
+  margin: 0 4%;
 }
 
 #page3 {
@@ -31,13 +33,22 @@ h2 {
 }
 
 p {
-  line-height: 250%;
+  line-height: 200%;
+}
+
+a:link {
+    background-color: #FFFACD;
+    color: black;
+}
+
+a:hover {
+    background-color: lightgreen;
 }
 
 .top-story{
-  border: 1px solid grey;
-  margin: 0 12%;
-  background: #FFFACD;
+  border: 1px solid #f7caba;
+  margin: 2% 10%;
+  background: #f7caba;
 }
 
 
@@ -53,7 +64,7 @@ float: right;
 
 
 h1{
-  padding: 5%;
+  padding-top: 2%;
 }
 
 button {
