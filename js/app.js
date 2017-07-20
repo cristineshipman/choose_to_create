@@ -65,6 +65,12 @@ $('.leviosa').click(function () {
     }
 });
 
+$(document).ready(function(){
+  $(".transfigure").click(function(){
+    $(".pen").attr("src", "css/img/pen2.gif")
+  })
+});
+
 
 
 // students created writing prompts
