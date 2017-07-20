@@ -24,16 +24,23 @@ h2 {
 
 
 .about {
-  margin: 0 4%;
+  margin:0 4%;
+
+
 }
 
 #page3 {
-  background: #C8F2C2;
+  background: white;
   text-align: center;
+  padding-bottom: 5%;
 }
 
 p {
   line-height: 200%;
+}
+
+blockquote {
+  font-size: 1.5em;
 }
 
 a:link {
@@ -42,7 +49,7 @@ a:link {
 }
 
 a:hover {
-    background-color: lightgreen;
+    background-color: #f2a68c;
 }
 
 .top-story{

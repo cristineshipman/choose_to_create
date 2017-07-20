@@ -46,9 +46,10 @@ $(function(){
 // wingardem leviosa
 $(function(){
   $('.leviosa').click(function(){
-    $('.pen').animate({top:'-2000px'}, 1000);
+    $('.pen').animate({top:'-450px'}, 1000);
   })
 });
+
 
 
 // students created writing prompts
