@@ -44,10 +44,25 @@ $(function(){
 
 
 // wingardem leviosa
-$(function(){
-  $('.leviosa').click(function(){
-    $('.pen').animate({top:'-450px'}, 1000);
-  })
+// $(function(){
+//   $('.leviosa').click(function(){
+//     $('.pen').animate({top:'-450px'}, 1000);
+//   })
+// });
+
+var clicked = false
+$('.leviosa').click(function () {
+    if (clicked == true) {
+        $(".pen").animate({
+            top: '-450px'
+        }, 1000);
+        clicked = false;
+    } else {
+        $(".pen").animate({
+            top: '0px'
+        }, 1000);
+        clicked = true;
+    }
 });
 
 
