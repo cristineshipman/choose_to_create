@@ -46,6 +46,7 @@ blockquote {
 a:link {
     background-color: #FFFACD;
     color: black;
+    text-transform: uppercase;
 }
 
 a:hover {
